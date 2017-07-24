@@ -17,4 +17,18 @@ Format data for use with the following programs:
 -Coancestry
 -Plink
 
+Create files with subsampled number of snps and individuals for exploratory power analyses
 
+Files
+1) SNP_filtering_1.R 
+  filters raw SNP data and formats for each program
+  
+2) Subsampling_Schemes_2.R
+  generates subsampled files for power analyses
+  
+3) batch_plink.bat
+  batch script for running plink subsamples
+
+4) Genome_results_3.R
+  concatenate results from plink genome analyses and produce heatmaps
+  
